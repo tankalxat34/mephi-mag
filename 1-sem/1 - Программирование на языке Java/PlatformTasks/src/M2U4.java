@@ -535,16 +535,55 @@ class Task16 {
     public static void main(String[] args) {
         int a = 4, b = 3, c = 2;
         b = b + c;
-        a = a * b;
+        //a = a * b;
         c = a - c;
-        a = a + b;
+        //a = a + b;
         a = a - b;
         c = a + b;
-        b = c / a;
+        //b = c / a;
         a = b + c;
         a = a + c + b;
 
-        // Напишите здесь свой код
-        System.out.println(a + " " + b + " " + c);
+        for (int i = 0; i < 20; i++) {
+            System.out.println(a);
+        }
+    }
+}
+
+
+/**
+ * Задание 17
+ * Напишите программу на Java, которая вычисляет периметры трёх фигур:
+ *
+ * Равностороннего треугольника (периметр = 3 * длина стороны)
+ * Квадрата (периметр = 4 * длина стороны)
+ * Окружности (периметр = 2 * π * радиус), причём в выводе значение должно быть округлено и показано ровно с двумя знаками после запятой.
+ * Требования:
+ *
+ * Создайте отдельный класс PerimeterCalculator с методами для расчёта каждого периметра.
+ * Параметры фигур задаются как статические переменные в основном классе (без ввода с клавиатуры).
+ * Вывод должен точно соответствовать формату (между строками результатов — по одной пустой строке).
+ * Используйте Math.PI для вычисления периметра окружности; выводите результат окружности ровно с двумя знаками после запятой.
+ */
+class Task17 {
+    static final int TRIANGLE_SIDE = 3;
+    static final int SQUARE_SIDE = 4;
+    static final int CIRCLE_RADIUS = 5;
+
+    public static void main(String[] args) {
+        
+    }
+}
+
+class PerimeterCalculator {
+    public static double triangle(double side) {
+//        Math.round(imt * 10.0) / 10.0
+        return Math.round(side * 3 * 100) / 100.0;
+    }
+    public static double square(double side) {
+        return Math.round(side * 4 * 100) / 100.0;
+    }
+    public static double round(double r) {
+        return Math.round(2 * Math.PI * r * 100) / 100.0;
     }
 }
