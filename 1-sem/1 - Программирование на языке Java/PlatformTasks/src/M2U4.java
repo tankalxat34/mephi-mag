@@ -1,6 +1,4 @@
-import java.util.Locale;
-import java.util.Scanner;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Задание 1.
@@ -395,46 +393,64 @@ class Task13 {
 /**
  * Задание 14
  * Напишите программу на Java, которая играет в «Угадай число» с фиксированными параметрами:
- *
+ * <p>
  * Программа генерирует целое число target от 1 до 20 включительно.
  * Пользователь делает не более 5 попыток (вводит по одному целому числу за попытку).
  * После каждой попытки:
  * — если guess > target, вывести: Загаданное мною число меньше.
  * — если guess < target, вывести: Загаданное мною число больше.
  * — если guess == target, вывести: Совершенно верно! Это и есть загаданное мною число! и завершить программу.
- *
+ * <p>
  * Если введены некорректные данные (не целое число):
  * — вывести: Ошибка: введите целое число!
  * — попытка не засчитывается
- *
+ * <p>
  * Если после 5 попыток число не угадано, вывести две строки:
  * Конец игры.
- *
+ * <p>
  * Мною было загадано число: X (где X — target).
- *
+ * <p>
  * Примечания:
- *
+ * <p>
  * Приглашения к вводу печатать не нужно
  * Некорректные попытки не уменьшают количество оставшихся попыток
  * Для генерации числа используйте Random с seed = 12345L
  */
 class Task14 {
-    final int COUNT_OF_ATTEMPTS = 5;
+    final static int COUNT_OF_ATTEMPTS = 5;
 
     private static int getRndInt(int from_, int to_) {
         Random rand = new Random(12345L);
         return rand.nextInt(to_) + from_;
     }
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int randomInt = getRndInt(1, 20);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        int target = getRndInt(1, 20);
         int guess;
+        int attempts = 0;
 
-        do {
-            guess = scanner.nextInt();
+        while (attempts < COUNT_OF_ATTEMPTS) {
+            try {
+                guess = scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Ошибка: введите целое число!");
+                scanner.next();
+                continue;
+            }
 
-        } while (guess != randomInt);
-
+            if (guess > target)
+                System.out.println("Загаданное мною число меньше.");
+            else if (guess < target)
+                System.out.println("Загаданное мною число больше.");
+            else {
+                System.out.println("Совершенно верно! Это и есть загаданное мною число!");
+                return;
+            }
+            attempts++;
+        }
+        System.out.println("Конец игры.");
+        System.out.println("Мною было загадано число: " + target);
         scanner.close();
     }
 }
