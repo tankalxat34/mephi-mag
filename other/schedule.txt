@@ -1,0 +1,271 @@
+<div class="schedule-tab">
+  <h3 class="sf-title sf-title--3">Расписание</h3>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Адаптационный курс</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1.
+        Введение</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Обзор
+        программы</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Учебное
+        сообщество</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4. Как учиться
+        онлайн</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Вводный курс по математике. Бонус</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Числа и
+        выражения</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Уравнения и
+        неравенства</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Основные
+        понятия теории функций</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4. Основы
+        геометрии: планиметрия, тригонометрия и стереометрия</span><span
+        class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 5. Множества,
+        логика и элементы статистики</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025,
+        00:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 6. Комбинаторика
+        и основы теории вероятностей</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025,
+        00:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 7.
+        Практика</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Программирование на языке Java</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус по дисциплине
+        «Программирование на языке Java»</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Введение в
+        Java</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">14.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Основные
+        синтаксические конструкции и операторы</span><span class="sf-text sf-text--3 sf-text--regular">08.09.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">21.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Практическое задание.
+        Проект «Калькулятор»</span><span class="sf-text sf-text--3 sf-text--regular">08.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Массивы и
+        строки</span><span class="sf-text sf-text--3 sf-text--regular">15.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">28.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4.
+        GIT</span><span class="sf-text sf-text--3 sf-text--regular">22.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">05.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 5. Стандартные
+        библиотеки</span><span class="sf-text sf-text--3 sf-text--regular">29.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">12.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 6. Потоковый
+        ввод-вывод</span><span class="sf-text sf-text--3 sf-text--regular">06.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">19.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 7. Исключения.
+        Обработка исключений. Типы исключений</span><span class="sf-text sf-text--3 sf-text--regular">13.10.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">26.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 8. Коллекции
+        (Java Collections Framework). Generics</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">02.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Бонус. Особенности Java
+        8: лямбда-функции, Stream API, Date Time API в Java</span><span
+        class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Итоговый проект «Сервис
+        коротких ссылок»</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">02.11.2025, 23:59:00</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Системное администрирование</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус дисциплины
+        «Системное администрирование»</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1.
+        Виртуализация</span><span class="sf-text sf-text--3 sf-text--regular">01.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">14.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Основы
+        Bash</span><span class="sf-text sf-text--3 sf-text--regular">08.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Домашнее задание
+        №1</span><span class="sf-text sf-text--3 sf-text--regular">08.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Операционные
+        системы и технологии RAID, LVM</span><span class="sf-text sf-text--3 sf-text--regular">15.09.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">28.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Домашнее задание
+        №2</span><span class="sf-text sf-text--3 sf-text--regular">15.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">28.09.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4.
+        Веб-серверы</span><span class="sf-text sf-text--3 sf-text--regular">22.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">05.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Сессионное задание по
+        дисциплине: Системное администрирование</span><span class="sf-text sf-text--3 sf-text--regular">29.09.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">12.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Subsection</span><span
+        class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Принципы объектно-ориентированного программирования
+    </h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус по дисциплине
+        ООП</span><span class="sf-text sf-text--3 sf-text--regular">22.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">22.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Введение в
+        ООП</span><span class="sf-text sf-text--3 sf-text--regular">29.09.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">12.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Принципы ООП
+        на практике</span><span class="sf-text sf-text--3 sf-text--regular">06.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">19.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Абстрактные
+        классы. Интерфейсы</span><span class="sf-text sf-text--3 sf-text--regular">13.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">26.10.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4. Вложенные
+        классы</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">02.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Итоговый проект «Система
+        управления личными финансами»</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">02.11.2025, 23:59:00</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Основы конвейерной разработки</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус по дисциплине
+        Основы технологического конвейера разработки программного обеспечения</span><span
+        class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Основы
+        методологии управления проектами Waterfall</span><span class="sf-text sf-text--3 sf-text--regular">27.10.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">09.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Модель быстрой
+        разработки приложений RAD</span><span class="sf-text sf-text--3 sf-text--regular">03.11.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">16.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Гибкая
+        методология управления проектами Agile</span><span class="sf-text sf-text--3 sf-text--regular">10.11.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">23.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4. Гибкая
+        методология разработки программного обеспечения DevOps</span><span
+        class="sf-text sf-text--3 sf-text--regular">17.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">30.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 5. Основы
+        непрерывной интеграции и непрерывной поставки</span><span
+        class="sf-text sf-text--3 sf-text--regular">24.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">07.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 6. Системы
+        управления конфигурацией</span><span class="sf-text sf-text--3 sf-text--regular">01.12.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">14.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 7. Архитектура
+        ПО</span><span class="sf-text sf-text--3 sf-text--regular">08.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 8. Основы
+        Kubernetes</span><span class="sf-text sf-text--3 sf-text--regular">15.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">28.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Экзамен по дисциплине
+        "Основы конвейерной разработки"</span><span class="sf-text sf-text--3 sf-text--regular">22.12.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">04.01.2026, 23:59:00</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Алгоритмы и структуры данных</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус по дисциплине
+        Алгоритмы и структуры данных</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">20.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Линейные
+        структуры данных</span><span class="sf-text sf-text--3 sf-text--regular">27.10.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">09.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Рекурсия и
+        комбинаторика</span><span class="sf-text sf-text--3 sf-text--regular">03.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">16.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Сортировки и
+        поиск</span><span class="sf-text sf-text--3 sf-text--regular">10.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">23.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4.
+        Хеширование</span><span class="sf-text sf-text--3 sf-text--regular">17.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">30.11.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 5. Графы.
+        Представление графов и алгоритм DFS</span><span class="sf-text sf-text--3 sf-text--regular">24.11.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">07.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 6. Деревья. Часть
+        1</span><span class="sf-text sf-text--3 sf-text--regular">01.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">14.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 7. Деревья. Часть
+        2</span><span class="sf-text sf-text--3 sf-text--regular">08.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 8. Динамическое
+        программирование</span><span class="sf-text sf-text--3 sf-text--regular">15.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">28.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Проект "Разработка
+        стратегии в стиле боя в игре "Герои Меча и Магии 3" против искусственного интеллекта".</span><span
+        class="sf-text sf-text--3 sf-text--regular">15.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">28.12.2025, 23:59:00</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Введение в бизнес-анализ</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Силлабус по дисциплине
+        Введение в бизнес-анализ</span><span class="sf-text sf-text--3 sf-text--regular">17.11.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Записи семинаров и
+        лекций</span><span class="sf-text sf-text--3 sf-text--regular">17.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 1. Введение в
+        бизнес-анализ</span><span class="sf-text sf-text--3 sf-text--regular">24.11.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">07.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 2. Управление
+        бизнес процессами</span><span class="sf-text sf-text--3 sf-text--regular">01.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">14.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 3. Понятие
+        бизнес-процессов</span><span class="sf-text sf-text--3 sf-text--regular">08.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">21.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Модуль 4. Моделирование
+        бизнес-процессов. Сбор информации</span><span class="sf-text sf-text--3 sf-text--regular">15.12.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">28.12.2025, 23:59:00</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Бонус. Моделирование
+        бизнес-процессов. Сбор информации</span><span class="sf-text sf-text--3 sf-text--regular">15.12.2025,
+        16:00:00</span><span class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Итоговый проект. Сбор
+        информации</span><span class="sf-text sf-text--3 sf-text--regular">22.12.2025, 16:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">04.01.2026, 23:59:00</span></div>
+  </div>
+  <div class="schedule-tab__container">
+    <h6 class="sf-title sf-title--6" style="margin-bottom: 4px;">Организационная встреча</h6>
+    <div class="schedule-tab__container-info"><span class="sf-text">Название</span><span class="sf-text">Дата
+        выхода</span><span class="sf-text">Дедлайн</span></div>
+    <div class="schedule-tab__container-info"><span class="sf-text sf-text--3 sf-text--regular">Запись
+        встречи</span><span class="sf-text sf-text--3 sf-text--regular">25.08.2025, 00:00:00</span><span
+        class="sf-text sf-text--3 sf-text--regular">Не указан</span></div>
+  </div>
+</div>

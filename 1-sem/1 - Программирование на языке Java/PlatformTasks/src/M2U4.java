@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.Random
+import java.util.Random;
 
 /**
  * Задание 1.
@@ -361,7 +361,7 @@ class Task12 {
 /**
  * Задание 13
  * Напишите программу на Java, которая:
- *
+ * <p>
  * Генерирует случайное число от 1 до 10 включительно.
  * Запрашивает у пользователя целое число.
  * После каждого ввода:
@@ -372,6 +372,69 @@ class Task12 {
  */
 class Task13 {
     public static void main(String[] args) {
+        Random rand = new Random();
+        int randInt = rand.nextInt(10) + 1;
+        Scanner scanner = new Scanner(System.in);
 
+        int userInput;
+        do {
+            System.out.print("Введите число: ");
+            userInput = scanner.nextInt();
+            if (userInput > randInt)
+                System.out.println("Загаданное мною число меньше");
+            else if (userInput < randInt)
+                System.out.println("Загаданное мною число больше");
+        } while (userInput != randInt);
+
+        System.out.println("Совершенно верно! Это и есть загаданное мною число!");
+        scanner.close();
+    }
+}
+
+
+/**
+ * Задание 14
+ * Напишите программу на Java, которая играет в «Угадай число» с фиксированными параметрами:
+ *
+ * Программа генерирует целое число target от 1 до 20 включительно.
+ * Пользователь делает не более 5 попыток (вводит по одному целому числу за попытку).
+ * После каждой попытки:
+ * — если guess > target, вывести: Загаданное мною число меньше.
+ * — если guess < target, вывести: Загаданное мною число больше.
+ * — если guess == target, вывести: Совершенно верно! Это и есть загаданное мною число! и завершить программу.
+ *
+ * Если введены некорректные данные (не целое число):
+ * — вывести: Ошибка: введите целое число!
+ * — попытка не засчитывается
+ *
+ * Если после 5 попыток число не угадано, вывести две строки:
+ * Конец игры.
+ *
+ * Мною было загадано число: X (где X — target).
+ *
+ * Примечания:
+ *
+ * Приглашения к вводу печатать не нужно
+ * Некорректные попытки не уменьшают количество оставшихся попыток
+ * Для генерации числа используйте Random с seed = 12345L
+ */
+class Task14 {
+    final int COUNT_OF_ATTEMPTS = 5;
+
+    private static int getRndInt(int from_, int to_) {
+        Random rand = new Random(12345L);
+        return rand.nextInt(to_) + from_;
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int randomInt = getRndInt(1, 20);
+        int guess;
+
+        do {
+            guess = scanner.nextInt();
+
+        } while (guess != randomInt);
+
+        scanner.close();
     }
 }

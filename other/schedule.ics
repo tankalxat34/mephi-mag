@@ -1,0 +1,454 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 13.10.2025\,\n        16:00:00
+DTEND:20251026T205900Z
+DTSTART:20251026T205900Z
+SUMMARY:[Дедлайн] Модуль 7. Исключения.\n        Обработка исключений. Типы исключений
+UID:51bdbc9b-1fa3-476f-8aef-26b0d7c62ad9@51bd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 08.09.2025\, 16:00:00
+DTEND:20250921T205900Z
+DTSTART:20250921T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Основы\n        Bash
+UID:7d6216f8-50b8-4f3d-92e8-9fda36bf6143@7d62.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Введение в бизнес-анализ\nДата выхода: 22.12.2025\, 16:00:00
+DTEND:20260104T205900Z
+DTSTART:20260104T205900Z
+SUMMARY:[Дедлайн] Итоговый проект. Сбор\n        информации
+UID:4cf3ffdf-cbb4-461b-b215-3f8c27398798@4cf3.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Принципы объектно-ориентированного программирования\nДата выхода: 20.10.2025\, 16:00:00
+DTEND:20251102T205900Z
+DTSTART:20251102T205900Z
+SUMMARY:[Дедлайн] Модуль 4. Вложенные\n        классы
+UID:98a0f77b-3464-44fe-a869-751bd8bd1492@98a0.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 22.09.2025\, 16:00:00
+DTEND:20251005T205900Z
+DTSTART:20251005T205900Z
+SUMMARY:[Дедлайн] Модуль 4.\n        GIT
+UID:340fbe16-bfa2-4869-921a-d0032ed2d5d3@340f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Введение в бизнес-анализ\nДата выхода: 08.12.2025\, 16:00:00
+DTEND:20251221T205900Z
+DTSTART:20251221T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Понятие\n        бизнес-процессов
+UID:db4ad760-af5b-4b7c-913d-c5ff6d9d8b46@db4a.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 01.09.2025\, 16:00:00
+DTEND:20250914T205900Z
+DTSTART:20250914T205900Z
+SUMMARY:[Дедлайн] Модуль 1.\n        Виртуализация
+UID:035b2f40-3a59-4170-9ea5-942a57fe7759@035b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 22.12.2025\,\n        16:00:00
+DTEND:20260104T205900Z
+DTSTART:20260104T205900Z
+SUMMARY:[Дедлайн] Экзамен по дисциплине\n        "Основы конвейерной разработки"
+UID:29debc88-0b5c-49f6-bb6c-79c05bff7d2f@29de.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 01.09.2025\, 16:00:00
+DTEND:20250914T205900Z
+DTSTART:20250914T205900Z
+SUMMARY:[Дедлайн] Модуль 1. Введение в\n        Java
+UID:c2320018-4c13-4450-b5d5-10a83565fcc9@c232.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 15.09.2025\, 16:00:00
+DTEND:20250928T205900Z
+DTSTART:20250928T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Массивы и\n        строки
+UID:7bf6726e-bfd1-404c-88c9-e2375bea491a@7bf6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Введение в бизнес-анализ\nДата выхода: 15.12.2025\,\n        16:00:00
+DTEND:20251228T205900Z
+DTSTART:20251228T205900Z
+SUMMARY:[Дедлайн] Модуль 4. Моделирование\n        бизнес-процессов. Сбор информации
+UID:7137fd2f-ed9c-4513-95f7-1bf668775b32@7137.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 20.10.2025\,\n        16:00:00
+DTEND:20251102T205900Z
+DTSTART:20251102T205900Z
+SUMMARY:[Дедлайн] Модуль 8. Коллекции\n        (Java Collections Framework). Generics
+UID:9018d632-7f68-4ad4-a00c-375432d6c1dd@9018.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 15.12.2025\, 16:00:00
+DTEND:20251228T205900Z
+DTSTART:20251228T205900Z
+SUMMARY:[Дедлайн] Проект "Разработка\n        стратегии в стиле боя в игре "Герои Меча и Магии 3" против искусственного интеллекта".
+UID:e36f26ec-c907-47ec-a065-cad38f744343@e36f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 03.11.2025\, 16:00:00
+DTEND:20251116T205900Z
+DTSTART:20251116T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Рекурсия и\n        комбинаторика
+UID:8e0be910-4c70-478e-926d-d51ee41803ef@8e0b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 15.12.2025\, 16:00:00
+DTEND:20251228T205900Z
+DTSTART:20251228T205900Z
+SUMMARY:[Дедлайн] Модуль 8. Основы\n        Kubernetes
+UID:a64be659-43ae-49bc-8e09-3c8e377877a3@a64b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 01.12.2025\,\n        16:00:00
+DTEND:20251214T205900Z
+DTSTART:20251214T205900Z
+SUMMARY:[Дедлайн] Модуль 6. Системы\n        управления конфигурацией
+UID:29ddfe1c-3cb1-4f11-a341-0dcaf5aff15c@29dd.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 15.09.2025\,\n        16:00:00
+DTEND:20250928T205900Z
+DTSTART:20250928T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Операционные\n        системы и технологии RAID\, LVM
+UID:eaf43ada-1a3d-498c-8321-63aab877a516@eaf4.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 20.10.2025\, 16:00:00
+DTEND:20251102T205900Z
+DTSTART:20251102T205900Z
+SUMMARY:[Дедлайн] Итоговый проект «Сервис\n        коротких ссылок»
+UID:ac2b6987-d110-4017-a2bf-13961f4fd83f@ac2b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 17.11.2025\, 16:00:00
+DTEND:20251130T205900Z
+DTSTART:20251130T205900Z
+SUMMARY:[Дедлайн] Модуль 4.\n        Хеширование
+UID:3d257a99-6fc4-42fb-b554-aed8c4f36d00@3d25.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 08.12.2025\, 16:00:00
+DTEND:20251221T205900Z
+DTSTART:20251221T205900Z
+SUMMARY:[Дедлайн] Модуль 7. Деревья. Часть\n        2
+UID:10cac749-2200-4084-8936-14b5bf042735@10ca.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 01.12.2025\, 16:00:00
+DTEND:20251214T205900Z
+DTSTART:20251214T205900Z
+SUMMARY:[Дедлайн] Модуль 6. Деревья. Часть\n        1
+UID:161f2ece-4fe6-4b3c-93a9-16c41028a8b8@161f.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Введение в бизнес-анализ\nДата выхода: 01.12.2025\, 16:00:00
+DTEND:20251214T205900Z
+DTSTART:20251214T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Управление\n        бизнес процессами
+UID:57d4587b-d9c5-4f92-ad20-05b7651bab1d@57d4.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 08.09.2025\, 16:00:00
+DTEND:20250921T205900Z
+DTSTART:20250921T205900Z
+SUMMARY:[Дедлайн] Домашнее задание\n        №1
+UID:fc135998-7b2c-4980-ba15-fa18e1b8a717@fc13.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 29.09.2025\,\n        16:00:00
+DTEND:20251012T205900Z
+DTSTART:20251012T205900Z
+SUMMARY:[Дедлайн] Сессионное задание по\n        дисциплине: Системное администрирование
+UID:fff00a7a-ea96-41ba-93a4-4c23fc1f7c21@fff0.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Принципы объектно-ориентированного программирования\nДата выхода: 20.10.2025\,\n        16:00:00
+DTEND:20251102T205900Z
+DTSTART:20251102T205900Z
+SUMMARY:[Дедлайн] Итоговый проект «Система\n        управления личными финансами»
+UID:80481a7e-13bd-4b8f-86fd-658f75b7817e@8048.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 24.11.2025\,\n        16:00:00
+DTEND:20251207T205900Z
+DTSTART:20251207T205900Z
+SUMMARY:[Дедлайн] Модуль 5. Графы.\n        Представление графов и алгоритм DFS
+UID:57d9266f-a9e0-434e-b2c3-b572de483ab2@57d9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 15.09.2025\, 16:00:00
+DTEND:20250928T205900Z
+DTSTART:20250928T205900Z
+SUMMARY:[Дедлайн] Домашнее задание\n        №2
+UID:bd8bee0a-3cee-49dd-a16a-b2aa08d58a50@bd8b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Принципы объектно-ориентированного программирования\nДата выхода: 13.10.2025\, 16:00:00
+DTEND:20251026T205900Z
+DTSTART:20251026T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Абстрактные\n        классы. Интерфейсы
+UID:fd70f469-fa78-4aa1-b688-77746dbc975e@fd70.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 27.10.2025\,\n        16:00:00
+DTEND:20251109T205900Z
+DTSTART:20251109T205900Z
+SUMMARY:[Дедлайн] Модуль 1. Основы\n        методологии управления проектами Waterfall
+UID:bdb05b1e-e5b3-4f58-9a86-d049fd99fab2@bdb0.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 10.11.2025\,\n        16:00:00
+DTEND:20251123T205900Z
+DTSTART:20251123T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Гибкая\n        методология управления проектами Agile
+UID:a98dff01-013e-41f8-bc2c-3a66f835a9cb@a98d.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Принципы объектно-ориентированного программирования\nДата выхода: 06.10.2025\, 16:00:00
+DTEND:20251019T205900Z
+DTSTART:20251019T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Принципы ООП\n        на практике
+UID:d2d86337-b61b-4e31-a8ec-ca65cf2be7a1@d2d8.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 17.11.2025\, 16:00:00
+DTEND:20251130T205900Z
+DTSTART:20251130T205900Z
+SUMMARY:[Дедлайн] Модуль 4. Гибкая\n        методология разработки программного обеспечения DevOps
+UID:6620c967-facc-400c-a1ba-af2a17faf8a6@6620.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Принципы объектно-ориентированного программирования\nДата выхода: 29.09.2025\, 16:00:00
+DTEND:20251012T205900Z
+DTSTART:20251012T205900Z
+SUMMARY:[Дедлайн] Модуль 1. Введение в\n        ООП
+UID:c1fc0bac-723c-42b3-b624-4c1152b21fc2@c1fc.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 08.09.2025\, 16:00:00
+DTEND:20250921T205900Z
+DTSTART:20250921T205900Z
+SUMMARY:[Дедлайн] Практическое задание.\n        Проект «Калькулятор»
+UID:3ea9fb38-f76e-4a0b-b602-0f006bceb165@3ea9.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Введение в бизнес-анализ\nДата выхода: 24.11.2025\, 16:00:00
+DTEND:20251207T205900Z
+DTSTART:20251207T205900Z
+SUMMARY:[Дедлайн] Модуль 1. Введение в\n        бизнес-анализ
+UID:481e4e2d-222c-474e-9122-5f2b4659da78@481e.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 29.09.2025\, 16:00:00
+DTEND:20251012T205900Z
+DTSTART:20251012T205900Z
+SUMMARY:[Дедлайн] Модуль 5. Стандартные\n        библиотеки
+UID:0b53662f-d777-43a0-a4b1-d3e077e73402@0b53.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 08.12.2025\, 16:00:00
+DTEND:20251221T205900Z
+DTSTART:20251221T205900Z
+SUMMARY:[Дедлайн] Модуль 7. Архитектура\n        ПО
+UID:a703f5d4-a244-4d8e-8435-2c0eaa0fc04a@a703.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 27.10.2025\, 16:00:00
+DTEND:20251109T205900Z
+DTSTART:20251109T205900Z
+SUMMARY:[Дедлайн] Модуль 1. Линейные\n        структуры данных
+UID:5b85945c-5fe0-4ae0-abb0-fc09faf80c6e@5b85.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 08.09.2025\,\n        16:00:00
+DTEND:20250921T205900Z
+DTSTART:20250921T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Основные\n        синтаксические конструкции и операторы
+UID:2ff2fc69-5b50-4f19-bada-4b1b74342657@2ff2.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 03.11.2025\,\n        16:00:00
+DTEND:20251116T205900Z
+DTSTART:20251116T205900Z
+SUMMARY:[Дедлайн] Модуль 2. Модель быстрой\n        разработки приложений RAD
+UID:ba7641dc-b22a-4a0a-93d6-e4bc59bbf4d0@ba76.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Основы конвейерной разработки\nДата выхода: 24.11.2025\, 16:00:00
+DTEND:20251207T205900Z
+DTSTART:20251207T205900Z
+SUMMARY:[Дедлайн] Модуль 5. Основы\n        непрерывной интеграции и непрерывной поставки
+UID:919bcf7e-6f24-488f-85c4-ee00f930745c@919b.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 15.12.2025\, 16:00:00
+DTEND:20251228T205900Z
+DTSTART:20251228T205900Z
+SUMMARY:[Дедлайн] Модуль 8. Динамическое\n        программирование
+UID:652ce451-1e61-4460-b604-b9226114a66d@652c.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Алгоритмы и структуры данных\nДата выхода: 10.11.2025\, 16:00:00
+DTEND:20251123T205900Z
+DTSTART:20251123T205900Z
+SUMMARY:[Дедлайн] Модуль 3. Сортировки и\n        поиск
+UID:bef6a4d3-ff70-45fc-8247-84b70d693ae3@bef6.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Программирование на языке Java\nДата выхода: 06.10.2025\, 16:00:00
+DTEND:20251019T205900Z
+DTSTART:20251019T205900Z
+SUMMARY:[Дедлайн] Модуль 6. Потоковый\n        ввод-вывод
+UID:a8f11de8-79cf-41cb-888a-2ab56035d42d@a8f1.org
+END:VEVENT
+BEGIN:VEVENT
+{'action': 'DISPLAY', 'trigger': '-PT10080M'}
+{'action': 'DISPLAY', 'trigger': '-PT4320M'}
+{'action': 'DISPLAY', 'trigger': '-PT1440M'}
+DESCRIPTION:Курс: Системное администрирование\nДата выхода: 22.09.2025\, 16:00:00
+DTEND:20251005T205900Z
+DTSTART:20251005T205900Z
+SUMMARY:[Дедлайн] Модуль 4.\n        Веб-серверы
+UID:ee1589d7-8e9f-4b0f-a8b3-a91ab7cf07a7@ee15.org
+END:VEVENT
+END:VCALENDAR
