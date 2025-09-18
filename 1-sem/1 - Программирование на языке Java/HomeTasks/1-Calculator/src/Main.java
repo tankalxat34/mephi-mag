@@ -30,5 +30,6 @@ public class Main {
                 System.out.println("Ошибка: Операция не распознана. Поддерживаемые операции: +, -, *, /");
                 break;
         }
+        scanner.close();
     }
 }

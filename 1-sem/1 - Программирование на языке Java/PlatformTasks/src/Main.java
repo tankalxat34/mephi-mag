@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        short[] xs = {45, 67, 101};
+        int x = 1, y = -1, z = 1;
+        if (x > 0)
+            if (y > 0)
+                System.out.println("x > 0 и y > 0");
+            else if (z > 0)
+                System.out.println("x < 0 и z > 0");
 
-        for (short x : xs) {
-            System.out.println(x >= 50 && x <= 100);
-        }
+
     }
 }
