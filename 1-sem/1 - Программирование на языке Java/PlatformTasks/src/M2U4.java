@@ -571,7 +571,7 @@ class Task17 {
     static final int CIRCLE_RADIUS = 5;
 
     public static void main(String[] args) {
-        
+
     }
 }
 
