@@ -8,28 +8,26 @@ public class Main {
         char operation = scanner.next().charAt(0);  // символ операции
         double operand2 = scanner.nextDouble();     // второе число
 
+        double result; // переменная для хранения результата
+
         switch (operation) {
             case '+':
-                System.out.println(operand1 + operand2);
+                result = operand1 + operand2;
                 break;
             case '-':
-                System.out.println(operand1 - operand2);
+                result = operand1 - operand2;
                 break;
             case '*':
-                System.out.println(operand1 * operand2);
+                result = operand1 * operand2;
                 break;
             case '/':
-                System.out.println(operand1 / operand2);
-                break;
-            case 'q':
-                return;
-            case 'c':
-                scanner.next();
+                result = operand1 / operand2;
                 break;
             default:
                 System.out.println("Ошибка: Операция не распознана. Поддерживаемые операции: +, -, *, /");
-                break;
+                return;
         }
+        System.out.println(result);
         scanner.close();
     }
 }
