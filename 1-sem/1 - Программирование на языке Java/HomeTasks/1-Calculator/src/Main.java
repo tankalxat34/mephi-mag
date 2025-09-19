@@ -21,6 +21,10 @@ public class Main {
                 result = operand1 * operand2;
                 break;
             case '/':
+                if (operand2 == 0) {
+                    System.out.println("Ошибка: Деление на ноль невозможно.");
+                    return;
+                }
                 result = operand1 / operand2;
                 break;
             default:
