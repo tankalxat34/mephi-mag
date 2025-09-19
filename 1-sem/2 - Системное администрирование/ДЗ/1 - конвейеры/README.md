@@ -8,7 +8,7 @@ param ( [string]$Name )
 plink.exe myusername@vmIpAddress -m $Name -pw 'somepassword'
 ```
 
-Пример вызова скрипта на удаленной машине:
+Пример вызова скрипта для его выполнения на удаленной виртуальной машине:
 ```powershell
 .\exc p1.sh
 ```
