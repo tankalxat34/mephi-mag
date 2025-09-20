@@ -11,4 +11,3 @@ sudo -S find /var/log -type f -name "*.log" -exec grep -h "WARNING" {} + | \
     grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | \
     awk -F. '$1 <= 255 && $2 <= 255 && $3 <= 255 && $4 <= 255' | \
     sort | uniq > unique_warnings_ips.txt
-
