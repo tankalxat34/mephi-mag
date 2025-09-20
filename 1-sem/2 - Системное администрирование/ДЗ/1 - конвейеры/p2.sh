@@ -6,10 +6,7 @@ echo '# Pipeline 2'
 # Исключает из подсчета файлы, размер которых превышает 1 МБ.
 # Выводит только общее количество строк.
 
-# ls -lh *.txt
-# find ~ -type f -name "*.txt" -size -1048576c
-
 find ~ -type f -name "*.txt" -size -1048576c | \
     xargs wc -l | \
-    grep -P "\d+\s+total$" | \
+    tail -1 | \
     awk '{ print $1 }'
