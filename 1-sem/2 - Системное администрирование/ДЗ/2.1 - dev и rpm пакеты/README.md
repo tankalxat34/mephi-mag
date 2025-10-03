@@ -140,6 +140,24 @@ debsig: Origin Signature check failed. This deb might not be signed.
 Вердикт:  10
 ```
 
+#### Сбрка в `.tar.gz` для сдачи
+
+```bash
+podst@pc-c-mephi01:~/build-hw-2$ tree
+.
+├── DEB-GPG-KEY-Александр-Подстречный
+├── mephi-script1-0.1.0-1.el10.x86_64.rpm
+├── mephi-script2.deb
+└── RPM-GPG-KEY-Александр-Подстречный
+
+1 directory, 5 files
+podst@pc-c-mephi01:~/build-hw-2$ tar -cvzf hw-2.1-avpodstrechnyy.tar.gz *
+DEB-GPG-KEY-Александр-Подстречный
+mephi-script1-0.1.0-1.el10.x86_64.rpm
+mephi-script2.deb
+RPM-GPG-KEY-Александр-Подстречный
+```
+
 
 ---
 
