@@ -201,6 +201,8 @@ sudo apt install -y dpkg-dev
 ```
 
 > Нужен для `dpkg-sig`.
+>
+> Так как пакет давно не обновлялся и [отсутствует](https://github.com/rstudio/rstudio/issues/14115) на Ubuntu с версий >= 23.10, то необходимо его [загрузить](https://manpages.debian.org/testing/dpkg-sig/dpkg-sig.1) и установить в Ubuntu.
 
 ---
 
