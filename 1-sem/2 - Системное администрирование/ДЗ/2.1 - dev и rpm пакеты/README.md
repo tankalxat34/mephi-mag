@@ -105,8 +105,8 @@ sudo dpkg -i ./dpkg-sig_0.13.1+nmu4_all.deb
 #### Автоматизация
 
 Для автоматизации процессов сборки и подписания deb пакета сделал простенькие скрипты:
-* [`./build-and-sign-deb.sh`](./build-and-sign-deb.sh) - собирает пакет, подписывает его и проверяет валидность подписи.
-* [`./sig-check.sh`](./sig-check.sh) - проверяет валидность подписи тремя утилитами: `gpg`, `dpkg-sig`, `debsig-verify`. Все они из трех разных пакетов.
+* [`build-and-sign-deb.sh`](./deb/build-and-sign-deb.sh) - собирает пакет, подписывает его и проверяет валидность подписи.
+* [`sig-check.sh`](./deb/sig-check.sh) - проверяет валидность подписи тремя утилитами: `gpg`, `dpkg-sig`, `debsig-verify`. Все они из трех разных пакетов.
 
 ```bash
 alexander@pc-u-f01:~$ ./build-and-sign-deb.sh mephi-script2 956882D1BE80642E22A87D7C37BAB491307B1F3E
