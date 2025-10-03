@@ -231,6 +231,63 @@ dpkg-sig --sign builder -k ABCD1234EFGH5678IJKL9012MNOP3456QRST7890 mephi-script
 > ```
 
 ---
+#### ❌[ERROR]: Inappropriate ioctl for device
+На версиях Ubuntu >=23.10, из-за того, что dpkg-sig не входит ни в стандартную поставку ОС, ни содержится на зеркалах для загрузки пакетов может возникать данная ошибка.
+
+GPG пытается запросить пароль от секретного ключа, но не может открыть терминал (TTY) для ввода — потому что dpkg-sig запускает gpg в фоновом режиме без интерактивного ввода.
+
+💡 Это происходит, если: 
+
+Ключ защищён паролем.
+И при этом не настроен gpg-agent или он не может показать диалог ввода пароля в вашей сессии.
+
+##### Решение
+
+GPG нужно явно указать, какой TTY использовать.
+
+Выполните:
+```bash
+export GPG_TTY=$(tty)
+```
+
+или (если tty не определён — например, в GUI-сессии):
+
+```bash
+export GPG_TTY=/dev/tty
+```
+
+Затем повторите подпись:
+```bash
+dpkg-sig --sign builder -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb
+```
+
+✅ В 90% случаев это решает проблему:
+
+```bash
+alexander@pc-u-f01:~$ dpkg-sig --sign builder -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb
+Processing mephi-script2.deb...
+gpg: using "956882D1BE80642E22A87D7C37BAB491307B1F3E" as default secret key for signing
+gpg: signing failed: Inappropriate ioctl for device
+gpg: /tmp/debsigs-ng.LR75fd/digests: clear-sign failed: Inappropriate ioctl for device
+E: Signing failed. Error code: 512
+alexander@pc-u-f01:~$ $(tty)
+-bash: /dev/pts/0: Permission denied
+alexander@pc-u-f01:~$ sudo echo $(tty)
+/dev/pts/0
+alexander@pc-u-f01:~$ export GPG_TTY=$(tty)
+alexander@pc-u-f01:~$ dpkg-sig --sign builder -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb
+Processing mephi-script2.deb...
+gpg: using "956882D1BE80642E22A87D7C37BAB491307B1F3E" as default secret key for signing
+Signed deb mephi-script2.deb
+```
+
+#### ❌ Не получается подписать deb пакет? (у меня не получилось)
+
+У кого не получается подпписать deb пакет. Я делала, через debsigs
+
+Команда: `debsigs -sign=origin -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb`
+
+---
 
 ### 🔹 Шаг 9: Экспортируйте публичный ключ в файл
 
@@ -252,6 +309,29 @@ dpkg-sig --verify mephi-script2.deb
 ```
 Processing mephi-script2.deb...
 GOODSIG _builder ABCD1234EFGH5678IJKL9012MNOP3456QRST7890 ...
+```
+
+#### Фактический результат после вызова [sig-check.sh](./deb/sig-check.sh):
+
+```bash
+alexander@pc-u-f01:~$ ./sig-check.sh mephi-script2.deb
+Начинаю проверку подписи пакета mephi-script2.deb
+-------------------------------
+1: gpg --verify mephi-script2.deb
+gpg: Signature made Fri 03 Oct 2025 07:40:20 PM UTC
+gpg:                using RSA key 956882D1BE80642E22A87D7C37BAB491307B1F3E
+gpg: Good signature from "Александр Подстречный deb <tankalxat34@gmail.com>" [ultimate]
+Вердикт:  0
+----
+2: dpkg-sig --verify mephi-script2.deb
+Processing mephi-script2.deb...
+BADSIG _gpgbuilder
+Вердикт:  2
+----
+3: debsig-verify mephi-script2.deb
+debsig: Origin Signature check failed. This deb might not be signed.
+
+Вердикт:  10
 ```
 
 ---
