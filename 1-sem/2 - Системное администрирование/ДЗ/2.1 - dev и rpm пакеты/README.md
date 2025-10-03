@@ -92,7 +92,54 @@ Linux pc-u-f01 6.8.0-83-generic #83-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  5 21:46:
 
 Cоздадим **deb-пакет `mephi-script2`**, подпишем его **второй парой ключей GPG** (с именем `"Имя Фамилия deb"`), а затем **экспортируем публичный ключ** в файл `DEB-GPG-KEY-Александр-Подстречный`.
 
-Конечно! Ниже — **обновлённая и исправленная инструкция** с учётом ваших правок:
+
+#### ЗАВИСИМОСТИ
+```bash
+cd
+sudo apt update
+sudo apt upgrade
+sudo apt install -y dpgk-dev
+sudo dpkg -i ./dpkg-sig_0.13.1+nmu4_all.deb
+```
+
+#### Автоматизация
+
+Для автоматизации процессов сборки и подписания deb пакета сделал простенькие скрипты:
+* [`./build-and-sign-deb.sh`](./build-and-sign-deb.sh) - собирает пакет, подписывает его и проверяет валидность подписи.
+* [`./sig-check.sh`](./sig-check.sh) - проверяет валидность подписи тремя утилитами: `gpg`, `dpkg-sig`, `debsig-verify`. Все они из трех разных пакетов.
+
+```bash
+alexander@pc-u-f01:~$ ./build-and-sign-deb.sh mephi-script2 956882D1BE80642E22A87D7C37BAB491307B1F3E
+Удалил прошую сборку mephi-script2.deb
+dpkg-deb: building package 'mephi-script2' in 'mephi-script2.deb'.
+Processing mephi-script2.deb...
+gpg: using "956882D1BE80642E22A87D7C37BAB491307B1F3E" as default secret key for signing
+Signed deb mephi-script2.deb
+Статус-код подписания:  0
+gpg: Signature made Fri 03 Oct 2025 09:12:44 PM UTC
+gpg:                using RSA key 956882D1BE80642E22A87D7C37BAB491307B1F3E
+gpg: Good signature from "Александр Подстречный deb <tankalxat34@gmail.com>" [ultimate]
+Статус-код проверки подписи:  0
+alexander@pc-u-f01:~$ ./sig-check.sh mephi-script2.deb
+Начинаю проверку подписи пакета mephi-script2.deb
+-------------------------------
+1: gpg --verify mephi-script2.deb
+gpg: Signature made Fri 03 Oct 2025 09:12:44 PM UTC
+gpg:                using RSA key 956882D1BE80642E22A87D7C37BAB491307B1F3E
+gpg: Good signature from "Александр Подстречный deb <tankalxat34@gmail.com>" [ultimate]
+Вердикт:  0
+----
+2: dpkg-sig --verify mephi-script2.deb
+Processing mephi-script2.deb...
+BADSIG _gpgbuilder
+Вердикт:  2
+----
+3: debsig-verify mephi-script2.deb
+debsig: Origin Signature check failed. This deb might not be signed.
+
+Вердикт:  10
+```
+
 
 ---
 
@@ -285,7 +332,7 @@ Signed deb mephi-script2.deb
 
 У кого не получается подпписать deb пакет. Я делала, через debsigs
 
-Команда: `debsigs -sign=origin -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb`
+Команда: `debsigs --sign=origin -k 956882D1BE80642E22A87D7C37BAB491307B1F3E mephi-script2.deb`
 
 ---
 
