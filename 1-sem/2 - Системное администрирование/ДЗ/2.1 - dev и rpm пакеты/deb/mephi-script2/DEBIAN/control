@@ -1,0 +1,8 @@
+Package: mephi-script2
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Александр Подстречный <tankalxat34@gmail.com>
+Description: MEPHI Script 2 for Module 2
+ Этот пакет содержит учебный скрипт mephi-script2.
