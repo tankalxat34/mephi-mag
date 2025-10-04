@@ -31,3 +31,5 @@ rpm-signer.crt
 
 secret-etc-pki.tar.gz
 secret-gnupg.tar.gz
+*.tmp
+~$*
