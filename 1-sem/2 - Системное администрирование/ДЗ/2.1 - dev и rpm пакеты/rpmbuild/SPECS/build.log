@@ -1,0 +1,50 @@
+setting SOURCE_DATE_EPOCH=1759276800
+Выполняется(%prep): /bin/sh -e /var/tmp/rpm-tmp.9ViDlZ
++ umask 022
++ cd /home/alexander/rpmbuild/BUILD
++ cd /home/alexander/rpmbuild/BUILD
++ rm -rf mephi-script1-0.1.0
++ /usr/lib/rpm/rpmuncompress -x /home/alexander/rpmbuild/SOURCES/mephi-script1-0.1.0.tar.gz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd mephi-script1-0.1.0
++ rm -rf /home/alexander/rpmbuild/BUILD/mephi-script1-0.1.0-SPECPARTS
++ /usr/bin/mkdir -p /home/alexander/rpmbuild/BUILD/mephi-script1-0.1.0-SPECPARTS
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Выполняется(%install): /bin/sh -e /var/tmp/rpm-tmp.k771aq
++ umask 022
++ cd /home/alexander/rpmbuild/BUILD
++ '[' /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64 '!=' / ']'
++ rm -rf /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64
+++ dirname /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64
++ mkdir -p /home/alexander/rpmbuild/BUILDROOT
++ mkdir /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2   '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2   '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2   -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2   -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd mephi-script1-0.1.0
++ mkdir -p /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64/usr/bin
++ install -m 755 mephi-script1 /home/alexander/rpmbuild/BUILDROOT/mephi-script1-0.1.0-1.el10.x86_64/usr/bin
+install: cannot stat 'mephi-script1': No such file or directory
+ошибка: Неверный код возврата из /var/tmp/rpm-tmp.k771aq (%install)
+
+RPM build errors:
+    Неверный код возврата из /var/tmp/rpm-tmp.k771aq (%install)
